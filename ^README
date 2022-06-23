@@ -1,0 +1,8 @@
+Para definir o tema, nós imaginamos algo que agradaria todos os usuários, pensamos em diversos temas: anime, música, comida típica, desenhos animados, séries... mas no final escolhemos filmes.
+
+Para esboçar o projeto, queríamos primeiramente, fazer algo que fosse divertido e "fofo" ao mesmo tempo. Como sabíamos apenas o básico de HTML, CSS e quase nada de JavaScript, nos desafiamos a fazer o marco 1 primeiro. Conseguimos deixar bonito e funcional, então partimos para o marco 2, que foi bem desafiador.
+
+Estava bem difícil fazer a tela quiz trazer o nome do usuário, assistimos vários vídeos, buscamos dentro dos materiais do laboratória curriculum, buscamos no Developer Mozilla e também dentro do W3School. No final conseguimos!
+
+Construímos a estrutura com cabeçalho, parte principal e footer. Utilizamos estilos que agradassem a nós duas e usamos JavaScript para dar ações aos comandos que queríamos: espaço para escrever nome, alertas, botões responsivos, etc.
+

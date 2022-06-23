@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Movies Quiz</title>
+  <link rel="icon" href="/img/clapperboard_cinema_icon_190873.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&amp;display=swap"
+    rel="stylesheet"
+    />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>    
+  
+<body>
+  <header class="container-header">
+    <img
+      class="img-cabecalho"
+      src="/img/cinema_popcorn_icon-icons.com_66128.png"
+      alt="Icone de Pipoca"
+    />
+    <h1 class="titulo-principal">Movies Quiz</h1>
+    <img
+      class="img-cabecalho"
+      src="/img/film_projector_cinema_icon-icons.com_66132.png"
+      alt="Icone de Filmadora"
+    />
+  </header>
+  <section class="container">
+    <h1>Olá <span id="usuario"></span>, tudo bem?</h1>
+    <h2 class="subtitulo">Você acha que sabe tudo sobre filmes? Essa eu quero ver </h2>
+    <main>
+      <div class="alternativas">
+        <p class="pergunta">
+          1. No filme "Titanic", algo aconteceu com o personagem Jack após cair no mar. Ele...
+        </p>
+        <input type="radio" id="boiou" name="Titanic" value="Boiou" />
+        <label for="boiou">Boiou</label>
+        <input type="radio" id="levitou" name="Titanic" value="Levitou" />      
+        <label for="levitou">Levitou</label>
+        <input type="radio" id="afundou" name="Titanic" value="Afundou" />
+        <label for="afundou">Afundou</label>
+        <br>
+        <button
+          class="botao-resultado"
+          onclick="resultado1()"
+          type="submit"
+          id="botao-questao1"
+          >
+          Ver Resultado
+        </button>
+      </div>
+
+      <div class="alternativas">
+        <p class="pergunta">
+          2. No filme "Shrek", o animal falante e irritante que segue Shrek é um...
+        </p>
+        <input type="radio" id="rinoceronte" name="Shrek" value="Rinoceronte" />
+        <label for="rinoceronte">Rinoceronte</label>
+        <input type="radio" id="burro" name="Shrek" value="Burro" />
+        <label for="burro">Burro</label>
+        <input type="radio" id="cavalo" name="Shrek" value="Cavalo" />
+        <label for="cavalo">Cavalo</label>
+        <br>
+        <button
+          class="botao-resultado"
+          onclick="resultado2()"
+          type="submit"
+          id="botao-questao2"
+          >
+          Ver Resultado
+        </button>
+      </div>
+
+      <div class="alternativas">
+        <p class="pergunta">
+          3. No filme "O Incrível Hulk", o herói é de qual cor?
+        </p>
+        <input type="radio" id="verde" name="Hulk" value="Verde" />
+        <label for="verde">Verde</label>
+        <input type="radio" id="roxo" name="Hulk" value="Roxo" />
+        <label for="roxo">Roxo</label>
+        <input type="radio" id="azul" name="Hulk" value="Azul" />
+        <label for="azul">Azul</label>
+        <br>
+        <button
+          class="botao-resultado"
+          onclick="resultado3()"
+          type="submit"
+          id="botao-questao3"
+          >
+          Ver Resultado
+        </button>
+      </div>
+        
+      <a href="/" class="botao-recomecar">Recomeçar</a>
+    </main>
+  </section>
+  <img src="/img/pipocabg.png" class="img-pipoca-grande" alt="Pipoca Grande">
+  <footer class="container-footer">
+    <p class="text-footer">Todos os direitos reservados 2022.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

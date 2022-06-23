@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Movies Quiz</title>
+  <link rel="icon" href="/img/clapperboard_cinema_icon_190873.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&amp;display=swap"
+    rel="stylesheet"
+    />
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+<body>
+  <header class="container-header">
+    <img class="img-cabecalho"
+      src="/img/cinema_popcorn_icon-icons.com_66128.png"
+      alt="Icone de Pipoca"
+    />
+    <h1 class="titulo-principal">Movies Quiz</h1>
+    <img
+      class="img-cabecalho"
+      src="/img/film_projector_cinema_icon-icons.com_66132.png"
+      alt="Icone de Filmadora"
+    />
+  </header>
+  <section class="container">
+    <h1>Vamos jogar o melhor quiz de Filmes!</h1>
+    <form action="/quiz.html">
+      <label for="nomeDoUsuario">Como podemos te chamar?</label>
+      <input
+        type="text"
+        placeholder="Digite seu nome"
+        id="nomeDoUsuario"
+        class="caixa-nome"
+      />
+      <button
+        type="submit"
+        id="botao-jogar"
+        class="botao-jogar"
+        onclick="setNomeDoUsuario()"
+      >
+        Jogar!
+      </button>
+    </form>
+  </section>
+  
+  <img 
+    src="/img/pipocabg.png"
+    class="img-pipoca-grande"
+    alt="Icone de Pipoca Grande"
+  />
+  
+  <footer class="container-footer">
+    <p class="text-footer">Todos os direitos reservados 2022.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
